@@ -1,0 +1,85 @@
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  display: inline-flex;
+  text-align: initial;
+  background-color: white;
+  width: 400px;
+  font-size: 15px;
+  box-shadow: 0 3px 10px rgba(104, 104, 104, 0.8);
+}
+
+.card-text {
+  min-height: 110px;
+}
+
+.editBtn {
+  display: inline-block;
+  background-color: #ffbb33;
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.editBtn > i {
+  text-align: center;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+.deleteBtn {
+  display: inline-block;
+  background-color: #ff4444;
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.deleteBtn > i {
+  text-align: center;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+i:hover {
+  opacity: 0.2;
+}
+
+.card-img {
+ height: 250px;
+}
+
+@media only screen and (max-width:800px) {
+
+}
+@media only screen and (max-width:500px) {
+
+}
+

@@ -1,0 +1,132 @@
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  display: inline-flex;
+  text-align: initial;
+  background-color: white;
+  width: 400px;
+  font-size: 15px;
+  box-shadow: 0 3px 10px rgba(104, 104, 104, 0.8);
+}
+
+.GoogleMap-search{
+  padding-top: 20px;
+}
+
+.welcome-note{
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.card-img{
+  height:260px;
+}
+
+.follow-btn {
+  display: inline-block;
+  background-color:white;
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: blue;
+  text-align: center;
+}
+
+.unFollow-btn {
+  display: inline-block;
+  background-color:white;
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color:   #ffbb33;
+  text-align: center;
+}
+
+
+.follow-btn > i {
+ padding-top: 10px;
+}
+
+.unFollow-btn > i {
+  padding-top: 10px;
+ }
+
+
+.card-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.followers-box{
+  background-color: #0275d8;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card-price {
+  color: #5cb85c;
+  padding-top: 10px;
+}
+
+.card-text {
+  min-height: 110px;
+}
+
+.buttonTrue {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: yellow;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonFalse {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+

@@ -1,0 +1,10 @@
+.welcome {
+    text-align: center;
+    line-height: 40px;
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell; 
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgb(234, 245, 255);
+}

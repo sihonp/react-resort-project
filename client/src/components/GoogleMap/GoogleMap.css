@@ -1,0 +1,31 @@
+#map-container-google-1{
+    height: 500px;
+    margin-left: 15px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:0%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    border: none;
+    left:0;
+    top:50px;
+    height:85%;
+    width:100%;
+    position:absolute;
+}
+
+.search-destination {
+    background-color: white;
+    outline: 0;
+    border-color: #0275d8;
+    border-radius: 5px;
+    padding-left: 0px;
+    color: black;
+    border-radius: 15px;
+    padding-left: 10px;
+}

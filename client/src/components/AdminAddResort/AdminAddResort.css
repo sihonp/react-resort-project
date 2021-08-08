@@ -1,0 +1,12 @@
+#inputGroup-sizing-default {
+    background-color:rgba(54, 162, 235, 0.6);
+    color: white;
+}
+
+#add-image {
+    display: none;
+}
+
+.modal-image {
+    width: 200px;
+}
