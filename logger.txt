@@ -1,0 +1,9 @@
+ADMIN 
+
+user: sihon24
+password: 12345
+
+CLIENT
+
+user: mike12
+password: 12345
